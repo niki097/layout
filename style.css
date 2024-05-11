@@ -3,6 +3,7 @@ body {
     padding: 0;
     height: 100%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-family:sans-serif
 }
 
 .container {
@@ -17,9 +18,10 @@ body {
     background-color: rgb(3, 107, 142);
     color: #fff;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: right;
+    padding: 1rem;
     font-size: 1.5rem;
+    letter-spacing: 1px;
 }
 
 /* Media query for responsiveness */
